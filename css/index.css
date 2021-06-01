@@ -1,0 +1,7 @@
+.contacts a {
+    display: block;
+}
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
