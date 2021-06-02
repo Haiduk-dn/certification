@@ -1,7 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+:root {
+    font-family: Inter, sans-serif;
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    max-width: 1024px;
+    margin: auto;
+}
+
 .contacts a {
     display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 1.25rem;
 }
+.contacts a:hover {
+    font-weight: bold;
+} 
 .heading {
     display: flex;
     justify-content: space-between;
+}
+#logo {
+    font-size: 30px;
+    text-align: left;
+    font-weight: bold;
+    color:#3366ff;
+}
+.subheading {
+    margin-top: 50px;
+    /*background-image: url(../img/background.png);*/
+    background: linear-gradient(75deg, #277bdb, #828ae5);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding: 50px;
+}
+.subheading p {
+    margin: 30px;
+}
+.advantage h2 {
+    margin-top: 30px;
+    color:#3366ff;
+}
+.advantage ul {
+    margin: 10px;
+}
+.services h2 {
+        color:#3366ff;
+}
+.services img {
+    max-width: 300px;
+    max-height: 300px;
+   
+
+}
+.services #certification {
+    background: linear-gradient(75deg, #277bdb, #828ae5);
+    display: inline-flex;
+    
+}
+
+.button {
+    padding: 0.35em 1.2em;
+    border: 0.1em solid white;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 2em;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    transition: color 0.7s;
+    background-color: none;
+    }
+.button:hover {
+    color: white;
+    background-color:blue;
+    cursor: pointer;
 }
